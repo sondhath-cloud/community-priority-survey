@@ -1,0 +1,36 @@
+# Survey response data (keep private)
+survey_data/
+*.json
+*.csv
+
+# Exclude the v2 folder since we've moved its contents to root
+Community Priority Survey v2/
+
+# PHP session files
+sess_*
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Backup files
+*.bak
+*.backup
